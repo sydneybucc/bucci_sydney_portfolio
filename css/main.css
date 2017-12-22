@@ -4,3 +4,14 @@
 .hidden {
 	display: none;
 }
+
+.fullWidth {
+	max-width: 100% !important;
+}
+
+.boxHelper {
+		color: #FC6C6C;
+		background-color: #EBECED;
+		text-align: center;
+}
+
