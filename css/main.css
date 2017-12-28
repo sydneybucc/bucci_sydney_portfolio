@@ -27,8 +27,31 @@ a {
 	transition: all 1s linear;
 }
 
+/* Main Navagation Ham */
+
+/*.title-bar {
+	background-color: #91B3BC;
+	padding-right: 0;
+}
+
+.title-bar .menu-icon {
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.menu-icon:after {
+	background: #FC6C6C;
+	box-shadow: 0 7px 0 #FC6C6C, 0 14px 0 #FC6C6C;
+}
+
+.menu-icon:hover::after {
+	background: #215445;
+	box-shadow: 0 7px 0 #215445, 0 14px 0 #215445;
+}*/
+
+/* Main Navagation Web */
 #mainNav {
-	margin: 0;
+	margin: 0 auto;
 	list-style-type: none;
 	text-align: center;
 	overflow: hidden;
@@ -37,19 +60,34 @@ a {
 
 #mainNav li a {
 	display: block;
-	padding: 10px 0 10px 0;
+	padding: 10px 80px 10px 80px;
+	font-size: 18px;
 	color: #2E323C;
 	overflow: hidden;
 }
 
 #mainNav li a:hover {
-	background-color: 
+	background-color: #FC6C6C;
 }
 
-#homeParalax {
+.menu simple {
+	text-align: center;
+}
+
+#logo{
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	padding-top: 20px;
+}
+
+#homeParallax {
 	background: url('../images/homepage.jpg') no-repeat;
 	background-size: cover;
+	background-color: #91B3BC;
 	height: 100vh;
 	width: 100%;
-	background-color: #91B3BC;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
