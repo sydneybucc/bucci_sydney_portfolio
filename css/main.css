@@ -36,6 +36,15 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	color: #3E3E3B;
+	letter-spacing: 3.5px;
+	font-size: 18px;
+	padding: 0 0 10px 0;
+	text-align: center;
+}
+
 a {
 	color: #2E323C;
 	text-decoration: none;
@@ -90,6 +99,8 @@ a {
 	text-align: center;
 }
 
+/* Splash Page */
+
 #logo {
 	display: block;
 	margin: 0 auto;
@@ -116,6 +127,8 @@ a {
 	background-repeat: no-repeat;
 }
 
+/* Skills Page */
+
 #skillsCon {
 	margin: 150px 0 10px 0;
 	padding: 0 60px 0 60px;
@@ -127,4 +140,48 @@ a {
 	max-width: 100px;
 	display: block;
 	margin: 0 auto;
+}
+
+/* Portfolio Page */
+
+#portCon {
+	background-color: #EBECED;
+	height: 300vh;
+	box-shadow: 0 5px 20px #A2AAB0 inset;
+}
+
+.freshStart {
+	margin: 150px 0 10px 0;
+	padding: 0 80px 0 80px;
+}
+
+.freshStart p {
+	margin: 40px 0 40px 0;
+}
+
+.mallerys {
+	margin: 150px 0 10px 0;
+	padding: 0 80px 0 80px;
+}
+
+.mallerys p {
+	margin: 40px 0 40px 0;
+}
+
+#visitSite {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	background-color: #91B3BC;
+	color: #3E3E3B;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 15px 10px 15px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 15px #A2AAB0;
+}
+
+#visitSite:hover {
+	background-color: #FC6C6C;
 }
