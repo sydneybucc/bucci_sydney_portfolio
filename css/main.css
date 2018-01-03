@@ -146,11 +146,11 @@ a {
 
 #portCon {
 	background-color: #EBECED;
-	height: 300vh;
+	height: 150vh;
 	box-shadow: 0 5px 20px #A2AAB0 inset;
 }
 
-.freshStart mallerys {
+.freshStart {
 	margin: 150px 0 10px 0;
 	padding: 0 80px 0 80px;
 }
@@ -159,11 +159,16 @@ a {
 	margin: 40px 0 40px 0;
 }
 
+.mallerys {
+	margin: 150px 0 10px 0;
+	padding: 0 80px 0 80px;
+}
+
 .mallerys p {
 	margin: 40px 0 40px 0;
 }
 
-#visitSite {
+.visitSite {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	display: block;
@@ -177,6 +182,39 @@ a {
 	box-shadow: 3px 3px 15px #A2AAB0;
 }
 
-#visitSite:hover {
+.visitSite:hover {
 	background-color: #FC6C6C;
+}
+
+/* About Page Starts */
+
+#aboutCon {
+	background: url('../images/aboutpage.jpg') no-repeat;
+	background-color: #91B3BC;
+	min-height: 600px;
+	width: 100%;
+	/*Temp Parallaxing*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.titleSec {
+	margin: 0 auto;
+	margin-top: 300px;
+	text-align: center;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #2B4251;
+}
+
+.titleBox {
+	margin: 0 auto;
+	margin-top: 200px;
+	background-color: #91B3BC;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	overflow: hidden;
+	opacity: 0.7;
 }
