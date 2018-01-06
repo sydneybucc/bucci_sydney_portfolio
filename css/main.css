@@ -216,5 +216,39 @@ a {
 
 #aboutCon {
 	background-color: #fff;
-	height: 100vh;
+	height: 210vh;
+}
+
+.pCenter {
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+	margin-top: 50px;
+}
+
+#promPic {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.aboutP {
+	margin-bottom: 100px;
+}
+
+#aboutPic {
+	width: 800px;
+	margin-bottom: 100px;
+	box-shadow: 0 5px 10px #A2AAB0;
+}
+
+#contactFront {
+	background: url('../images/contactpage.jpg') no-repeat;
+	background-color: #91B3BC;
+	min-height: 800px;
+	width: 100%;
+	/*Temp Parallaxing*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
