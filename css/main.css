@@ -241,6 +241,7 @@ a {
 	box-shadow: 0 5px 10px #A2AAB0;
 }
 
+/*Contact Page Starts*/
 #contactFront {
 	background: url('../images/contactpage.jpg') no-repeat;
 	background-color: #91B3BC;
@@ -251,4 +252,80 @@ a {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+#contactArea {
+	background-color: #2E323C;
+}
+
+#contactArea h2 {
+	color: #5B7D87 !important;
+}
+
+#contactArea h3 {
+	color: #91B3BC !important;
+}
+
+#contactForm {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#name {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	color: #3E3E3B;
+	padding: 25px 0px 25px 15px;
+}
+
+#email {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	color: #3E3E3B;
+	padding: 25px 0px 25px 15px;
+}
+
+#subject {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	color: #3E3E3B;
+	padding: 25px 0px 25px 15px;
+}
+
+#message {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	color: #3E3E3B;
+	padding: 25px 0px 25px 15px;
+}
+
+/*::placeholder {
+	color: #3E3E3B;
+}*/
+
+#send {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	background-color: #91B3BC;
+	color: #3E3E3B;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 15px 10px 15px;
+	margin: 0 auto;
+	transition: all 1s linear;
+}
+
+#send:hover {
+	background-color: #FC6C6C;
+	cursor: pointer;
+	transition: all 1s linear;
+}
+
+/*Footer Starts*/
+#mainFooter {
+	height: 40vh;
+	background-color: #FC6C6C;
+}
+
+.socialMedia {
+	height: 100px;
+	margin: 40px 50px 40px 50px;
 }

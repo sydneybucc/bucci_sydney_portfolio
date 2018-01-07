@@ -133,17 +133,41 @@
     </section>
 </section>
 
-<section class="expanded row" id="contactForm">
-    <form action="contact.php" method="post">
-    <!--Make sure to give each input a name attribute(name="")-->
-        <label>Name: </label><input name="name" type="text" size="21" maxlength="30" />
-        <label>Email: </label><input name="email" type="text" size="21" maxlength="30" />
-        <label for="street">Street: </label><input class="street" name="street" type="text" size="21" maxlength="30" />
-        <label for="message">Message: </label><textarea name="message"></textarea>
-        <input name="submit" type="submit" value="Send" />
+<section class="expanded row" id="contactArea">
+    <h2>currently looking for employment</h2>
+    <h3>ask me for my resume</h3>
+    <form id="contactForm" class="small-12 large-8 large-offset-2" action="contact.php" method="post">
+        <label for="name"></label>
+        <input type="text" required id="name" name="fullName" size="30" placeholder="NAME">
+        
+        <label for="email"></label>
+        <input type="email" required id="email" size="30" placeholder="EMAIL">
+        
+        
+        <label for="phone"></label>
+        <input type="text" required id="subject" size="30" placeholder="SUBJECT">
+        
+        <label for="comments"></label>
+        <textarea name="text" id="message" required cols="50" rows="8" placeholder="MESSAGE"></textarea>
+       
+        <input id="send" type="submit" value="SEND">
     </form>
 </section>
 <!-- Contact Page Ends -->
+
+<!-- Footer Starts -->
+<footer class="expanded row" id="mainFooter">
+    <h2 class="hidden">Footer</h2>
+
+    <section>
+        <img src="images/linkedin.svg" alt="Linkedin Icon" class="socialMedia">
+        <img src="images/facebook.svg" alt="Facebook Icon" class="socialMedia">
+        <img src="images/instagram.svg" alt="Instagram Icon" class="socialMedia">
+        <img src="images/pinterest.svg" alt="Pinterest Icon" class="socialMedia">
+        <img src="images/tumblr.svg" alt="Tumblr Icon" class="socialMedia">
+    </section>
+</footer>
+<!-- Footer Ends -->
 
 
 
