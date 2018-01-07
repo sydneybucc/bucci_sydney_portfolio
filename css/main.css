@@ -171,6 +171,7 @@ a {
 .visitSite {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: bold;
+	letter-spacing: 3.5px;
 	display: block;
 	width: 200px;
 	background-color: #91B3BC;
@@ -302,6 +303,7 @@ a {
 #send {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: bold;
+	letter-spacing: 3.5px;
 	display: block;
 	width: 200px;
 	background-color: #91B3BC;
@@ -327,5 +329,12 @@ a {
 
 .socialMedia {
 	height: 100px;
-	margin: 40px 50px 40px 50px;
+	margin: 150px 50px 40px 50px;
+}
+
+#copyright {
+	margin-top: 50px;
+	color: #000000;
+	letter-spacing: 3.5px;
+	font-size: 10px;
 }
