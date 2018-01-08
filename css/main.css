@@ -112,7 +112,7 @@ a {
 	display: block;
 	margin: 0 auto;
 	max-width: 35px;
-	height: 120vh;
+	padding-top: 550px;
 }
 
 #homeParallax {
@@ -130,9 +130,9 @@ a {
 /* Skills Page */
 
 #skillsCon {
-	margin: 150px 0 10px 0;
+	margin: 50px 0 200px 0;
 	padding: 0 60px 0 60px;
-	height: 45vh;
+	/*height: 45vh;*/
 	background-color: #fff;
 }
 
@@ -140,19 +140,19 @@ a {
 	max-width: 100px;
 	display: block;
 	margin: 0 auto;
+	padding-top: 80px;
 }
 
 /* Portfolio Page */
 
 #portCon {
 	background-color: #EBECED;
-	height: 150vh;
+	/*height: 150vh;*/
 	box-shadow: 0 5px 20px #A2AAB0 inset;
 }
 
 .freshStart {
-	margin: 150px 0 10px 0;
-	padding: 0 80px 0 80px;
+	margin-top: 150px;
 }
 
 .freshStart p {
@@ -160,15 +160,14 @@ a {
 }
 
 .mallerys {
-	margin: 150px 0 10px 0;
-	padding: 0 80px 0 80px;
+	margin: 150px 0 100px 0;
 }
 
 .mallerys p {
 	margin: 40px 0 40px 0;
 }
 
-.visitSite {
+.more {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	letter-spacing: 3.5px;
@@ -180,11 +179,17 @@ a {
 	font-size: 14px;
 	padding: 10px 15px 10px 15px;
 	margin: 0 auto;
-	box-shadow: 3px 3px 15px #A2AAB0;
+	transition: all 1s linear;
 }
 
-.visitSite:hover {
+.more:hover {
 	background-color: #FC6C6C;
+	cursor: pointer;
+	transition: all 1s linear;
+}
+
+.titleHover h3:hover {
+	color: #FC6C6C;
 }
 
 /* About Page Starts */
@@ -217,7 +222,7 @@ a {
 
 #aboutCon {
 	background-color: #fff;
-	height: 210vh;
+	overflow: hidden;
 }
 
 .pCenter {
@@ -323,18 +328,92 @@ a {
 
 /*Footer Starts*/
 #mainFooter {
-	height: 40vh;
 	background-color: #FC6C6C;
 }
 
 .socialMedia {
-	height: 100px;
+	width: 5%;
 	margin: 150px 50px 40px 50px;
 }
 
 #copyright {
-	margin-top: 50px;
+	margin-top: 10px;
 	color: #000000;
 	letter-spacing: 3.5px;
 	font-size: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1023px) {
+	#skillsCon {
+		margin: 50px 0 150px 0;
+	}
+}
+
+@media screen and (max-width: 1275px) {
+	.freshStart {
+		max-width: 90%;
+	}
+
+	.freshStart p {
+		margin: 10px 0 20px 0;
+	}
+
+	.mallerys {
+		max-width: 90%
+	}
+
+	.mallerys p {
+		margin: 10px 0 20px 0;
+	}
+}
+
+@media screen and (max-width: 1145px) {
+	.freshStart {
+		max-width: 100%;
+	}
+
+	.mallerys {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.freshStart {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	/* Figure out how to move the mallerys picture above the text in mobile. */
+}
+
+@media screen and (max-width: 717px) {
+	.socialMedia {
+		margin: 50px 20px 20px 20px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.title-bar {
+		background-color: #91B3BC;
+		padding-right: 0;
+	}
+
+	.title-bar .menu-icon {
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	.menu-icon:after {
+		background: #FC6C6C;
+		box-shadow: 0 7px 0 #FC6C6C, 0 14px 0 #FC6C6C;
+	}
+
+	.menu-icon:hover::after {
+		background: #215445;
+		box-shadow: 0 7px 0 #215445, 0 14px 0 #215445;
+	}
+
+	/* HAM NAV still needs fixing!!! */
 }
