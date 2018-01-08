@@ -5,13 +5,13 @@
     $direct = "thankyou.php";
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $street = $_POST['street'];
+    $subject = $_POST['subject'];
     $message = $_POST['message'];
     //echo $name;
-    if($street === "") {
+    if($subject === "") {
       echo "send mail";
       $sendMail = submitMessage($direct, $name, $email, $message);
     }//else{
-      //echo "F off bot!";
+      //Go away bot!";
     //}
 ?>
