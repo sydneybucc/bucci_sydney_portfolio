@@ -51,28 +51,6 @@ a {
 	transition: all 1s linear;
 }
 
-/* Main Navagation Ham */
-
-/*.title-bar {
-	background-color: #91B3BC;
-	padding-right: 0;
-}
-
-.title-bar .menu-icon {
-	margin-right: 20px;
-	margin-top: 10px;
-}
-
-.menu-icon:after {
-	background: #FC6C6C;
-	box-shadow: 0 7px 0 #FC6C6C, 0 14px 0 #FC6C6C;
-}
-
-.menu-icon:hover::after {
-	background: #215445;
-	box-shadow: 0 7px 0 #215445, 0 14px 0 #215445;
-}*/
-
 /* Main Navagation Web */
 #mainNav {
 	margin: 0 auto;
@@ -394,26 +372,23 @@ a {
 	}
 }
 
-@media screen and (max-width: 1023px) {
-	.title-bar {
-		background-color: #91B3BC;
-		padding-right: 0;
+@media screen and (max-width: 830px) {
+	#mainNav li a {
+		padding: 10px 60px 10px 60px;
+		font-size: 16px;
 	}
+}
 
-	.title-bar .menu-icon {
-		margin-right: 20px;
-		margin-top: 10px;
+@media screen and (max-width: 688px) {
+	#mainNav li a {
+		padding: 10px 30px 10px 30px;
+		font-size: 14px;
 	}
+}
 
-	.menu-icon:after {
-		background: #FC6C6C;
-		box-shadow: 0 7px 0 #FC6C6C, 0 14px 0 #FC6C6C;
+@media screen and (max-width: 486px) {
+	#mainNav li a {
+		padding: 10px 10px 10px 10px;
+		font-size: 12px;
 	}
-
-	.menu-icon:hover::after {
-		background: #215445;
-		box-shadow: 0 7px 0 #215445, 0 14px 0 #215445;
-	}
-
-	/* HAM NAV still needs fixing!!! */
 }
