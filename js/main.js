@@ -7,9 +7,9 @@
 	console.log(links);
 	
 	function scrollit(evt) { //use evt when you need to grab the id or something stored in it
-		//console.log("From scrollit");
-		//console.log(evt.currentTarget.id);
-		var idNum = evt.currentTarget.id;
+		console.log("From scrollit");
+        var idNum = evt.currentTarget.id;
+        //console.log(evt.currentTarget.id);
 		TweenLite.to(window, 1, {scrollTo:{y:"#section"+idNum, offsetY:20}});
 	}
 	
