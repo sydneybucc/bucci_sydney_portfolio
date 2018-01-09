@@ -9,7 +9,6 @@ body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 	color: #A2AAB0;
-	background-color: #fff;
 	text-align: center;
 	line-height: 150%;
 }
@@ -423,6 +422,30 @@ span {
 	color: #000000;
 	letter-spacing: 3.5px;
 	font-size: 10px;
+}
+
+/* Thank You Page Starts */
+
+.backButton {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	display: block;
+	width: 200px;
+	background-color: #91B3BC;
+	color: #3E3E3B;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 15px 10px 15px;
+	margin: 0 auto;
+	transition: all 1s linear;
+	margin-top: 30px;
+}
+
+.backButton:hover {
+	background-color: #FC6C6C;
+	cursor: pointer;
+	transition: all 1s linear;
 }
 
 /* Media Queries */
