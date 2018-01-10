@@ -18,7 +18,26 @@
 	
 	for(var i=0; i<links.length; i++) {
 		links[i].addEventListener("click", scrollit, false);
-	}
+    }
+    
+    /////////
+    //Type Animation
+
+    var options = {
+        strings: [
+            "I am a Developer^1000",
+            "I am a Designer^1000",
+            "I am a Problem Solver^1000"
+        ],
+        
+        startDelay: 1000,
+        typeSpeed: 80,
+        backSpeed: 150,
+        loop: true,
+        smartBackspace: true
+    }
+
+    var typed = new Typed(".TXTanimation", options);
     
     //////////
     //Lightbox
