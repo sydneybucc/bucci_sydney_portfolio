@@ -6,7 +6,7 @@
   $pass = ""; // for pc
   //$pass = "root"; for mac only
   $url = "localhost";
-  $db = "db_movies";
+  $db = "db_portfolio";
   // only change the top part when applying to a different database, DO NOT TOUCH THE CODE UNDER
 
   //$link = mysqli_connect($url, $user, $pass, $db, "8889") //mac only

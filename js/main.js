@@ -48,21 +48,27 @@
         console.log("From lightBoxOpen");
     }
 
-    function openlightBox(currentIndex, currentObject) {
+    function openlightBox(evt) {
         //console.log("From openLightbox");
         //debugger;
         //window.scrollTo(0, 0);
         //document.body.style.overflow = "hidden";
 
-        let lightBox = document.querySelector('.lightbox');
+        let lightbox = document.querySelector('.lightbox');
         lightbox.style.display = 'block';
 
         let lightboxImg = lightbox.querySelector('img');
         let lightboxClose = lightbox.querySelector('close-lightbox');
         let lightboxDesc = lightbox.querySelector('p');
 
-        lightboxImg.src = "images/" + currentObject.images[currentIndex];
-        lightboxDesc.innerHTML = currentObject.description[currentIndex];
+
+        if (evt.target.id == "freshstart") {
+        	lightboxImg.src = "images/freshstart.png";
+        	lightboxDesc.innerHTML = "TEST";
+        }else if (evt.target.id == "mallery") {
+			lightboxImg.src = "images/mallery.png";
+        	lightboxDesc.innerHTML = "TEST";
+		}
 
         lightboxClose.addEventListener('click', closeLightbox, false)
     }
