@@ -44,9 +44,9 @@
 
     var moreButtons = document.querySelectorAll('.more');
 
-    function changeElements() {
-        let contObj = dynamicConent[this.id];
-    }
+    //function changeElements() {
+    //    let contObj = dynamicConent[this.id];
+    //}
 
     function lightBoxOpen() {
         //console.log("From lightBoxOpen");
@@ -64,16 +64,16 @@
         let lightboxImg = lightbox.querySelector('img');
         let lightboxClose = lightbox.querySelector('.close-lightbox');
         let lightboxDesc = lightbox.querySelector('p');
+        let lightboxTitle = lightbox.querySelector('h2');
+        let lightboxSubtitle = lightbox.querySelector('h3');
 
 
-        if (evt.target.id == "freshstart") {
-        	lightboxImg.src = "images/freshstartnow_final.png";
-        	lightboxDesc.innerHTML = "TEST";
-        }else if (evt.target.id == "mallery") {
-			lightboxImg.src = "images/mallerys_final.png";
-        	lightboxDesc.innerHTML = "TEST";
-		}
+        lightboxImg.src = "images/" + dynamicContent[evt.target.id]['images'];
+        lightboxDesc.innerHTML = dynamicContent[evt.target.id]['text'];
+        lightboxTitle.innerHTML = dynamicContent[evt.target.id]['title'];
+        lightboxSubtitle.innerHTML = dynamicContent[evt.target.id]['subtitle'];
 
+       
         lightboxClose.addEventListener('click', closeLightbox, false);
     }
 
@@ -81,7 +81,7 @@
         document.body.style.overflow = "auto";
 
         let lightbox = document.querySelector('.lightbox');
-        let lightboxImg = lightbox.querySelector('.img');
+        let lightboxImg = lightbox.querySelector('img');
         let lightboxDesc = lightbox.querySelector('p');
         
         lightbox.style.display = "";
