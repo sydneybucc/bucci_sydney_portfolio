@@ -44,8 +44,12 @@
 
     var moreButtons = document.querySelectorAll('.more');
 
+    function changeElements() {
+        let contObj = dynamicConent[this.id];
+    }
+
     function lightBoxOpen() {
-        console.log("From lightBoxOpen");
+        //console.log("From lightBoxOpen");
     }
 
     function openlightBox(evt) {
@@ -63,10 +67,10 @@
 
 
         if (evt.target.id == "freshstart") {
-        	lightboxImg.src = "images/freshstart.png";
+        	lightboxImg.src = "images/freshstartnow_final.png";
         	lightboxDesc.innerHTML = "TEST";
         }else if (evt.target.id == "mallery") {
-			lightboxImg.src = "images/mallery.png";
+			lightboxImg.src = "images/mallerys_final.png";
         	lightboxDesc.innerHTML = "TEST";
 		}
 
