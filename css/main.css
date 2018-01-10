@@ -153,12 +153,12 @@ a {
 	font-size: 60px;
 }
 
-#scrollDown {
+/*#scrollDown {
 	display: block;
 	margin: 0 auto;
 	max-width: 35px;
 	padding-top: 450px;
-}
+}*/
 
 #homeParallax {
 	background: url('../images/homepage.jpg') no-repeat;
@@ -315,9 +315,6 @@ a {
 }
 
 .pCenter {
-	margin: 0 auto;
-	text-align: center;
-	width: 500px;
 	margin-top: 50px;
 }
 

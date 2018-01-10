@@ -45,7 +45,6 @@
     var moreButtons = document.querySelectorAll('.more');
 
     function lightBoxOpen() {
-        moreButtons.addEventListener('click', openlightBox, false);
         console.log("From lightBoxOpen");
     }
 
@@ -79,4 +78,8 @@
         lightboxImg.src = "";
         lightboxDesc.innerHTML = "";
     }
+
+    moreButtons.forEach(function(element,index) {
+        element.addEventListener('click', openlightBox, false);
+    });
 })();
