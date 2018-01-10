@@ -10,7 +10,7 @@
 
   //make sure that the list is in the same order as it is called. DO NOT mix up the order!!
   function submitMessage($direct, $name, $email, $message) {
-    echo "From submit message()";
+    //echo "From submit message()";
     $to = "sydneybucc@gmail.com";
     $subject = "message from user from hosting";
     // Disclaimer - was advised to use the $extra[] code to manually change my name when emailing

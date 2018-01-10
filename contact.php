@@ -2,21 +2,14 @@
   require_once ('admin/scripts/config.php');
   if (isset($_POST['fullName'])){
     
-    //echo "yup";
-    
     $direct = "thankyou.php";
     $name = $_POST['fullName'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     
-    //echo $name;
-    
     submitMessage($direct, $name, $email, $message);
-    }
-
-  //echo '<pre>' . var_dump($_POST['message']) . '</pre>';
-  //echo '<pre>' . var_dump($_POST) . '</pre>';
+  }
 ?>
 
 <!DOCTYPE html>
