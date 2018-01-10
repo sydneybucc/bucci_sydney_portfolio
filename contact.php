@@ -12,13 +12,8 @@
     
     //echo $name;
     
-    if($subject === "") {
-      echo "send mail";
-      $sendMail = submitMessage($direct, $name, $email, $message);
-    }//else{
-      //echo "Go away bot!";
-    //}
-  }
+    submitMessage($direct, $name, $email, $message);
+    }
 
   //echo '<pre>' . var_dump($_POST['message']) . '</pre>';
   //echo '<pre>' . var_dump($_POST) . '</pre>';
