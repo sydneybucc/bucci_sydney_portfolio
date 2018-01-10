@@ -258,15 +258,19 @@ a {
 	background-color: #EBECED;
 	padding: 20px;
 	color: grey;
+	overflow-y: scroll;
+	height: 95vh;
 }
 
 .lightbox-img {
-	width: 100%;
+	margin-top: 80px;
 }
 
 .desc {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	text-align: center;
+	margin: 30px 0 30px 0;
+
 }
 
 .close-lightbox {

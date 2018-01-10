@@ -12,7 +12,7 @@
   function submitMessage($direct, $name, $email, $message) {
     //echo "From submit message()";
     $to = "sydneybucc@gmail.com";
-    $subject = "message from user from hosting";
+    $subject = "the subject";
     // Disclaimer - was advised to use the $extra[] code to manually change my name when emailing
     $extra[] = "Reply to: ".$email;
     $extra[] = 'From: Sydney Bucci <sydneybucc@gmail.com>';

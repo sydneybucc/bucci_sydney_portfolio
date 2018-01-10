@@ -14,7 +14,7 @@ var dynamicContent = {
 
         subtitle : "wordpress customized",
 
-        text : "Working with Rocket Digital, I took part in designing and creating some pages for Mallery's Auto Body. kI was tasked to populate pages using WordPress, find stock images, and implement designs. I designed the pages based on their colour schemes and fonts. Now their website is responsive and aesthetic to the eye.",
+        text : "Working with Rocket Digital, I took part in designing and creating some pages for Mallery's Auto Body. I was tasked to populate pages using WordPress, find stock images, and implement designs. I designed the pages based on their colour schemes and fonts. Now their website is responsive and aesthetic to the eye.",
 
         images : "mallerys_final.png"
     }
