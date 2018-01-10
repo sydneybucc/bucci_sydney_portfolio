@@ -52,13 +52,13 @@
         //console.log("From openLightbox");
         //debugger;
         //window.scrollTo(0, 0);
-        //document.body.style.overflow = "hidden";
+        document.body.style.overflow = "hidden";
 
         let lightbox = document.querySelector('.lightbox');
         lightbox.style.display = 'block';
 
         let lightboxImg = lightbox.querySelector('img');
-        let lightboxClose = lightbox.querySelector('close-lightbox');
+        let lightboxClose = lightbox.querySelector('.close-lightbox');
         let lightboxDesc = lightbox.querySelector('p');
 
 
@@ -70,7 +70,7 @@
         	lightboxDesc.innerHTML = "TEST";
 		}
 
-        lightboxClose.addEventListener('click', closeLightbox, false)
+        lightboxClose.addEventListener('click', closeLightbox, false);
     }
 
     function closeLightbox() {
